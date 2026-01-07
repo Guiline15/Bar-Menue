@@ -1,0 +1,97 @@
+.i1{
+    width: 90px;
+    height: auto;
+}
+.h1{
+    background-color: rgb(255, 166, 0);
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 5px 20px;
+ 
+}
+.d1{
+
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+.n1 a {
+text-decoration: none;
+margin: 10px;
+font-size: 15px;
+font-weight: bold;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.n1 a:hover{
+    text-decoration: underline;
+color: blue;
+}
+
+.h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+   
+.h3{
+    color: rgb(5, 85, 155);
+    font-family: 'Times New Roman', Times, serif;
+}
+.h4{
+    color: rgba(255, 0, 251, 0.874);
+}
+img{
+    width: 100px;
+    border-radius: 50px;
+    height: 100px;
+}
+
+.b{
+    color: blue;
+}
+
+.galeries{
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    justify-content: space-around;
+ 
+    text-align: center;
+
+}
+.d:hover{
+    background-color: rgb(255, 115, 0);
+   transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.d0:hover{
+    background-color: rgb(0, 255, 145);
+   transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.d2:hover{
+    color: aliceblue;
+    background-color: rgb(57, 27, 3);
+   transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+p{
+    text-align: center;
+}
+
+.d{
+    box-shadow: 0 10px 10px rgb(225, 141, 14);
+}
+.d0{
+    box-shadow: 10px 0 10px blue;
+}
+.d2{
+    box-shadow: 0 10px 5px rgb(225, 81, 14);
+}
+.dt{
+    box-shadow: 10px 10px 10px rgb(255, 0, 174);
+}
+.dt:hover{
+    background-color: rgba(198, 16, 116, 0.075);
+   transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
